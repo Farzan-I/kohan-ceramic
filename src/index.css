@@ -48,16 +48,16 @@
 }
 
 .bg-card {
-  background: #2a2c2c; /* fallback for old browsers */
+  background: #38454b; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to top,
-    #2a2c2c,
-    #111111
+    #38454b,
+    #38454b
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to top,
-    #2a2c2c,
-    #111111
+    #38454b,
+    #38454b
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -129,8 +129,8 @@
 
 .red-yellow-gradient {
   background: "#00cea8";
-  background: linear-gradient(90.13deg, #10bfcf 1.9%, #b419ec 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #10bfcf 1.9%, #b419ec 97.5%);
+  background: linear-gradient(90.13deg, #ffd7a7 1.9%, #d18f4d 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #ffd7a7 1.9%, #d18f4d 97.5%);
 }
 
 .green-pink-gradient {
