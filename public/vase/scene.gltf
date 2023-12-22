@@ -3,24 +3,24 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 5024,
+      "count": 5017,
       "max": [
-        0.12751497328281403,
-        0.12751497328281403,
-        0.4394349753856659
+        1.2345161437988281,
+        1.2345151901245117,
+        1.7894539833068848
       ],
       "min": [
-        -0.12751498818397522,
-        -0.12751497328281403,
-        -0.00011807833652710542
+        -1.2345104217529297,
+        -1.234511137008667,
+        -2.095547676086426
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 60288,
+      "byteOffset": 60204,
       "componentType": 5126,
-      "count": 5024,
+      "count": 5017,
       "max": [
         0.9999996423721313,
         0.9999996423721313,
@@ -36,17 +36,17 @@
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 5024,
+      "count": 5017,
       "max": [
-        0.9992620944976807,
-        0.9999876618385315,
-        0.9999902844429016,
+        0.9999970197677612,
+        0.6659999489784241,
+        0.6090042591094971,
         1.0
       ],
       "min": [
-        -0.9990389347076416,
-        -0.9999878406524658,
-        -0.9999656081199646,
+        -1.0,
+        -1.0,
+        -0.9999977946281433,
         1.0
       ],
       "type": "VEC4"
@@ -54,91 +54,91 @@
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 5024,
+      "count": 5017,
       "max": [
-        0.9777895212173462,
-        0.9828169345855713
+        0.7992613911628723,
+        1.0
       ],
       "min": [
-        0.09417182207107544,
-        0.0032023699022829533
+        0.0,
+        0.0
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 1,
-      "byteOffset": 40192,
+      "byteOffset": 40136,
       "componentType": 5126,
-      "count": 5024,
+      "count": 5017,
       "max": [
-        0.9777895212173462,
-        0.9828169345855713
+        0.7992613911628723,
+        1.0
       ],
       "min": [
-        0.09417182207107544,
-        0.0032023699022829533
+        0.0,
+        0.0
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 1,
-      "byteOffset": 80384,
+      "byteOffset": 80272,
       "componentType": 5126,
-      "count": 5024,
+      "count": 5017,
       "max": [
-        0.9777895212173462,
-        0.9828169345855713
+        0.7992613911628723,
+        1.0
       ],
       "min": [
-        0.09417182207107544,
-        0.0032023699022829533
+        0.0,
+        0.0
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 28224,
+      "count": 28416,
       "type": "SCALAR"
     }
   ],
   "asset": {
     "extras": {
-      "author": "mohamedhussien (https://sketchfab.com/mohamedhussien)",
-      "license": "CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)",
-      "source": "https://sketchfab.com/3d-models/4k-antique-ceramic-vase-5952108871aa4e5eb63258dca1c93fb2",
-      "title": "4k Antique Ceramic Vase"
+      "author": "Vinícius Souza (https://sketchfab.com/vinibudy)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/vase-294ab037e7004247ad775d657d3d4144",
+      "title": "Vase"
     },
-    "generator": "Sketchfab-12.67.0",
+    "generator": "Sketchfab-15.30.0",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 112896,
+      "byteLength": 113664,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 120576,
-      "byteOffset": 112896,
+      "byteLength": 120408,
+      "byteOffset": 113664,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 120576,
-      "byteOffset": 233472,
+      "byteLength": 120408,
+      "byteOffset": 234072,
       "byteStride": 12,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 80384,
-      "byteOffset": 354048,
+      "byteLength": 80272,
+      "byteOffset": 354480,
       "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
@@ -146,44 +146,62 @@
   ],
   "buffers": [
     {
-      "byteLength": 434432,
+      "byteLength": 434752,
       "uri": "scene.bin"
     }
   ],
+  "extensionsUsed": [
+    "KHR_materials_clearcoat",
+    "KHR_materials_specular"
+  ],
   "images": [
     {
-      "uri": "textures/antique_ceramic_vase_01_baseColor.jpeg"
+      "uri": "textures/Material.001_baseColor.png"
     },
     {
-      "uri": "textures/antique_ceramic_vase_01_metallicRoughness.png"
+      "uri": "textures/Material.001_metallicRoughness.png"
     },
     {
-      "uri": "textures/antique_ceramic_vase_01_normal.png"
+      "uri": "textures/Material.001_normal.png"
     }
   ],
   "materials": [
     {
       "doubleSided": true,
-      "name": "antique_ceramic_vase_01",
-      "normalTexture": {
-        "index": 2
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 0.23139840193430172,
+          "clearcoatRoughnessFactor": 0.04
+        },
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 0.3946678694639831
+        }
       },
-      "occlusionTexture": {
-        "index": 1
+      "name": "Material.001",
+      "normalTexture": {
+        "index": 2,
+        "scale": 0.46171569284782576
       },
       "pbrMetallicRoughness": {
         "baseColorTexture": {
           "index": 0
         },
+        "metallicFactor": 0.3032390193951067,
         "metallicRoughnessTexture": {
           "index": 1
-        }
+        },
+        "roughnessFactor": 0.693335446355646
       }
     }
   ],
   "meshes": [
     {
-      "name": "antique_ceramic_vase_01_antique_ceramic_vase_01_0",
+      "name": "Cylinder_Material.001_0",
       "primitives": [
         {
           "attributes": {
@@ -248,7 +266,7 @@
         0.0,
         1.0
       ],
-      "name": "antique_ceramic_vase_01_4k.fbx"
+      "name": "a1d0d030ced446ab939d1a2c4d79b89a.fbx"
     },
     {
       "children": [
@@ -278,11 +296,11 @@
         0.0,
         1.0
       ],
-      "name": "antique_ceramic_vase_01"
+      "name": "Cylinder"
     },
     {
       "mesh": 0,
-      "name": "antique_ceramic_vase_01_antique_ceramic_vase_01_0"
+      "name": "Cylinder_Material.001_0"
     }
   ],
   "samplers": [

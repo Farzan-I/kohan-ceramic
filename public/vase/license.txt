@@ -1,11 +1,11 @@
 Model Information:
-* title:	4k Antique Ceramic Vase
-* source:	https://sketchfab.com/3d-models/4k-antique-ceramic-vase-5952108871aa4e5eb63258dca1c93fb2
-* author:	mohamedhussien (https://sketchfab.com/mohamedhussien)
+* title:	Vase
+* source:	https://sketchfab.com/3d-models/vase-294ab037e7004247ad775d657d3d4144
+* author:	Vinícius Souza (https://sketchfab.com/vinibudy)
 
 Model License:
-* license type:	CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
-* requirements:	Author must be credited. Modified versions must have the same license. Commercial use is allowed.
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "4k Antique Ceramic Vase" (https://sketchfab.com/3d-models/4k-antique-ceramic-vase-5952108871aa4e5eb63258dca1c93fb2) by mohamedhussien (https://sketchfab.com/mohamedhussien) licensed under CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
+This work is based on "Vase" (https://sketchfab.com/3d-models/vase-294ab037e7004247ad775d657d3d4144) by Vinícius Souza (https://sketchfab.com/vinibudy) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
