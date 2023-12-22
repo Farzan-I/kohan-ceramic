@@ -1,28 +1,45 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import logoBlack from "./logoBlack.png"
 import github from "./github.png";
 import youtube from "./youtube.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
-import cheshm from "./cheshm.jpg";
 import netlify from "./netlify.png";
-import threeFaces from "./threeFaces.jpg";
+
+import cheshm from "./collection/cheshm.jpg";
+import threeFaces from "./collection/threeFaces.jpg";
+import gallery from "./collection/gallery.jpg";
+import ego from "./collection/ego.jpeg";
+import virgo from "./collection/virgo.jpg";
+import leavesVase from "./collection/leavesVase.jpg";
+import fishplate from "./collection/fishplate.jpg";
+import circleplate from "./collection/circleplate.png";
+import dali from "./collection/dali.jpg";
+
+import hamoun from "./companies/hamoun.png";
+import contconsult from "./companies/contconsult.png";
+import nasimearam from "./companies/nasimearam.jpg";
+import kimiaye from "./companies/kimiaye.png";
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
+  logoBlack,
   github,
   youtube,
   menu,
   close,
-  cheshm,
   netlify,
+  cheshm,
   threeFaces,
+  gallery,
+  ego,
+  virgo, 
+  leavesVase,
+  fishplate,
+  circleplate,
+  dali,
+  hamoun,
+  contconsult,
+  nasimearam,
+  kimiaye,
 };
