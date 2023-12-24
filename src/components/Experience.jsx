@@ -61,10 +61,7 @@ const Experience = () => {
           Experience
         </h2>
         <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far in my life, 
-        </p>
-        <p className={`${styles.sectionSubText} text-center`}>
-        Including an intensive coding boot camp!
+          What I have accomplished so far
         </p>
       </div>
 
