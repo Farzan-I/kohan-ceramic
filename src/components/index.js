@@ -5,6 +5,7 @@ import About from './About';
 import Experience from './Experience';
 import Collection from './Collection';
 import Contact from './Contact';
+import Footer from './Footer';
 
 export {
   Hero,
@@ -13,5 +14,6 @@ export {
   Experience,
   Collection,
   Contact,
-  TwinVaseCanvas
+  TwinVaseCanvas,
+  Footer
 }
