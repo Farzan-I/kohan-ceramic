@@ -7,21 +7,12 @@ module.exports = {
       colors: {
         primary: "#ffd7a7",
         secondary: "#e2b680",
-        // No reference yet
         tertiary: "#877d6b",
-        // No reference yet
-        quaternary: "#645b4e",
-        // For contact background
+        quaternary: "#b6874d",
         quinary: "#0e0e0ebc",
-
-
         "black-100": "#101437",
         "black-200": "#090325",
-        "dark-grey": "#050505",
         "white-100": "#f0ead6",
-        "yellow-text": "#eda53a",
-
-       
       },
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",
