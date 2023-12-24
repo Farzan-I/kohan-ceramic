@@ -1,22 +1,27 @@
 import { BrowserRouter } from "react-router-dom"
-
-import { About, Collection, Contact, Experience, Hero, Navbar } from './components';
+import { useState } from "react";
+import { About, Collection, Contact, Experience, Footer, Hero, Navbar } from './components';
 
 const App = () => {
+
+  const [toggle, setToggle] = useState(false);
+
   return (
       <BrowserRouter>
         <div className="relative z-0 bg-[#3C4142]">
-          <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-            <Navbar/>
-            <Hero/>
+          <Navbar toggle={toggle} setToggle={setToggle}/>
+          <div onClick={() => setToggle(false)}>
+            <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+              <Hero/>
+            </div>
+            <About/>
+            <Collection/>
+            <Experience/>
+            <div className="relative z-0">
+              <Contact/>
+            </div>
+            <Footer/>
           </div>
-          <About/>
-          <Collection/>
-          <Experience/>
-          <div className="relative z-0">
-            <Contact/>
-          </div>
-          {/* <Footer/> */}
         </div>
       </BrowserRouter>
   )
