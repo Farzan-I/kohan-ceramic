@@ -2,9 +2,10 @@ import logo from "./logo.svg";
 import logoBlack from "./logoBlack.png"
 import github from "./github.png";
 import youtube from "./youtube.png";
-import menu from "./menu.svg";
-import close from "./close.svg";
+import menu from "./menu.png";
+import close from "./close.png";
 import netlify from "./netlify.png";
+import instagram from "./instagram.png";
 
 import cheshm from "./collection/cheshm.jpg";
 import threeFaces from "./collection/threeFaces.jpg";
@@ -29,6 +30,7 @@ export {
   menu,
   close,
   netlify,
+  instagram,
   cheshm,
   threeFaces,
   gallery,
