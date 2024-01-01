@@ -3,10 +3,6 @@ import {
   netlify,
   cheshm,
   threeFaces,
-  hamoun,
-  contconsult,
-  nasimearam,
-  kimiaye,
   gallery,
   ego,
   virgo,
@@ -14,6 +10,54 @@ import {
   fishplate,
   circleplate,
   dali,
+  doublevases,
+  champslge,
+  custom,
+  bnwvase,
+  leaves,
+  bnymugs,
+  rngmugs,
+  face,
+  funkymugs,
+  skull,
+  kidswork,
+  twofaces,
+  longvase,
+  blackashtrays,
+  coloured,
+  mugs,
+  goat,
+  nusrat,
+  pottery,
+  scorpio,
+  cancer,
+  gemini,
+  twogirls,
+  pregoat,
+  camel,
+  twovases,
+  pokkadot,
+  winevase,
+  students,
+  zan,
+  students2,
+  horseplate,
+  ashtrays,
+  covid,
+  evileyes,
+  fishbowl,
+  vases,
+  mustarddo,
+  winedo,
+  whiteorangedo,
+  greendo,
+  whitedo,
+  whiteblackdo,
+  yellowblackdo,
+  hamoun,
+  contconsult,
+  nasimearam,
+  kimiaye,
   logoBlack,
   logo
 } from "../assets";
@@ -48,7 +92,7 @@ const services = [
   },
   {
     title: "Project Manager",
-    icon: dali,
+    icon: mustarddo,
   }
 ];
 
@@ -164,6 +208,98 @@ const collections = [
       },
     ],
     image: threeFaces,
+    otherImage: netlify,
+    source_code_link: "",
+    source_code_link_other: "",
+  },
+  {
+    name: "Name three",
+    description:
+      "",
+    tags: [
+      {
+        name: "Number one",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Number two",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Number three",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dali,
+    otherImage: netlify,
+    source_code_link: "",
+    source_code_link_other: "",
+  },
+  {
+    name: "Name four",
+    description:
+      "",
+    tags: [
+      {
+        name: "Number one",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Number two",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Number three",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: horseplate,
+    otherImage: netlify,
+    source_code_link: "",
+    source_code_link_other: "",
+  },
+  {
+    name: "Name five",
+    description:
+      "",
+    tags: [
+      {
+        name: "Number one",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Number two",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Number three",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: twofaces,
+    otherImage: netlify,
+    source_code_link: "",
+    source_code_link_other: "",
+  },
+  {
+    name: "Name six",
+    description:
+      "",
+    tags: [
+      {
+        name: "Number one",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Number two",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Number three",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: virgo,
     otherImage: netlify,
     source_code_link: "",
     source_code_link_other: "",
