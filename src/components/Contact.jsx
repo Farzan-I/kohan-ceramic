@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 
 import { styles } from '../styles';
-import { TwinVaseCanvas } from './canvas';
+import { VaseCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';     
 
@@ -78,7 +78,7 @@ const Contact = () => {
               name="name"
               value={form.name}
               onChange={handleChange}
-              placeholder="Your name"
+              placeholder="Surname if possible"
               className="bg-[#a68064] py-4 px-6 placeholder:text-black text-white-100 rounded-lg outlined-none border-none font-medium hover:placeholder:text-white-100"
             />
           </label>
@@ -91,7 +91,7 @@ const Contact = () => {
               name="email"
               value={form.email}
               onChange={handleChange}
-              placeholder="Double check your spelling!"
+              placeholder="Check your spelling!"
               className="bg-[#a68064] py-4 px-6 placeholder:text-black text-white-100 rounded-lg outlined-none border-none font-medium hover:placeholder:text-white-100"
             />
           </label>
@@ -104,7 +104,7 @@ const Contact = () => {
               name="message"
               value={form.message}
               onChange={handleChange}
-              placeholder="....."
+              placeholder="............."
               className="bg-[#a68064] py-4 px-6 placeholder:text-black text-white-100 rounded-lg outlined-none border-none font-medium hover:placeholder:text-white-100"
             />
           </label>
@@ -122,7 +122,7 @@ const Contact = () => {
         variants={slideIn('right', 'tween', 0.2, 1)}
         className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
       >
-        <TwinVaseCanvas />
+        <VaseCanvas />
       </motion.div>
     </div>
   )
