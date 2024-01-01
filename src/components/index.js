@@ -1,4 +1,4 @@
-import { TwinVaseCanvas } from './canvas';
+import { VaseCanvas } from './canvas';
 import Hero from './Hero';
 import Navbar from './Navbar';
 import About from './About';
@@ -14,6 +14,6 @@ export {
   Experience,
   Collection,
   Contact,
-  TwinVaseCanvas,
+  VaseCanvas,
   Footer
 }
