@@ -60,6 +60,16 @@ import greendo from "./collection/greendo.jpg";
 import whitedo from "./collection/whitedo.jpg";
 import whiteblackdo from "./collection/whiteblackdo.jpg";
 import yellowblackdo from "./collection/yellowblackdo.jpg";
+import bnwashtrays from "./collection/bnwashtrays.png";
+import brownvase from "./collection/brownvase.png";
+import eyeglasses from "./collection/eyeglasses.png";
+import jug from "./collection/jug.png";
+import multibowls from "./collection/multibowls.png";
+import multivase from "./collection/multivase.png";
+import smallbowls from "./collection/smallbowls.png";
+import smallplates from "./collection/smallplates.png";
+import twoplates from "./collection/twoplates.png";
+import winebowls from "./collection/winebowls.png";
 
 import hamoun from "./companies/hamoun.png";
 import contconsult from "./companies/contconsult.png";
@@ -128,6 +138,16 @@ export {
   whitedo,
   whiteblackdo,
   yellowblackdo,
+  bnwashtrays,
+  brownvase,
+  eyeglasses,
+  jug,
+  multibowls,
+  multivase,
+  smallbowls,
+  smallplates,
+  twoplates,
+  winebowls,
   hamoun,
   contconsult,
   nasimearam,
