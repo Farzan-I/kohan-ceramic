@@ -1,3 +1,3 @@
-import TwinVaseCanvas from "./Vases";
+import VaseCanvas from "./Vase";
 
-export { TwinVaseCanvas };
+export { VaseCanvas };
