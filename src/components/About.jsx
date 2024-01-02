@@ -39,6 +39,17 @@ const About = () => {
         <p className={styles.sectionSubText}>About the artist</p>
       </motion.div>
 
+      <motion.p 
+        variants={fadeIn("", "", 0.1, 1)} 
+        className="font-left mt-10 text-white text-[19px] max-w-3xl leading-[30px]"
+      >
+        That's right, you guessed it. This site belongs to someone who has loved playing with clay as a kid 
+        and still does! But her family did not allow her to do this because they thought she would get sick 
+        and dirty, which caused her to unintentionally stay away from this interest. She didn't know exactly 
+        what she enjoyed until she was 32 years old. But look at what's happened. It seems that this woman 
+        has been guided to the right path for several years.
+      </motion.p>
+
       <div className="mt-10 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
@@ -49,15 +60,6 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)} 
         className="font-left mt-10 text-white text-[19px] max-w-3xl leading-[30px]"
       >
-        That's right, you guessed it. This site belongs to someone who has loved playing with clay as a kid 
-        and still does! But her family did not allow her to do this because they thought she would get sick 
-        and dirty, which caused her to unintentionally stay away from this interest. She didn't know exactly 
-        what she enjoyed until she was 32 years old. But look at what's happened. It seems that this woman 
-        has been guided to the right path for several years.
-
-        <br/>
-        <br/>
-
         Please allow me to thank all you art lovers who have taken the time to visit my website in order to 
         learn more about my handiwork. Even though I studied urban planning and architecture at degree level, 
         I started my artistic journey in 2016 with figurative sculpting, and since 2018, I've been learning the 
