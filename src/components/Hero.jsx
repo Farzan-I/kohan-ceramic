@@ -1,4 +1,4 @@
-import { styles } from '../styles';
+import { styles } from "../styles";
 
 const Hero = () => {
   return (
@@ -17,37 +17,3 @@ const Hero = () => {
 }
 
 export default Hero
-
-// import { motion } from 'framer-motion';
-
-// import { ComputersCanvas } from './canvas';
-
-  {/* <div className="w-5 h-5 rounded-full bg-[#FE0039]" />
-    <div className="w-1 sm:h-80 h-40 red-gradient-hero" /> */}
-  {/* <h1 className={`${styles.heroHeadText} text-[] text-outline`}>Welcome to</h1> */}
-  {/* <h1 className={`${styles.heroHeadText} text text-outline`}>Kohan Ceramic</h1> */}
-  {/* &apos; */}
-  {/* <span className="text-[#FE0039]"></span><span className="text-[#FE0039]"></span> */}
-  {/* <p className={`${styles.heroSubText} mt-2 text text-outline-small`}>
-    By SGL
-    <br className="sm:block hidden"/>
-  </p> */}
-        {/* <ComputersCanvas /> */}
-
-      {/* <div className="absolute xs:bottom-60 bottom-32 w-full flex justify-center items-center">
-        <a href="#about">
-          <div className="w-[35px] h-[84px] rounded-3xl border-4 border-black flex justify-center items-start p-2">
-            <motion.dev 
-              animate={{
-                y: [0, 50, 0]
-              }}
-              transition={{
-                duration: 1.5,
-                repeat: Infinity,
-                repeatType: 'loop'
-              }}
-              className="w-3 h-3 rounded-full bg-black mb-1"
-            />
-          </div>
-        </a>
-      </div> */}
