@@ -16,42 +16,28 @@ import leavesVase from "./collection/leavesVase.jpg";
 import fishplate from "./collection/fishplate.jpg";
 import circleplate from "./collection/circleplate.png";
 import dali from "./collection/dali.jpg";
-import doublevases from "./collection/doublevases.png";
 import champslge from "./collection/champslge.png";
 import custom from "./collection/custom.png";
 import bnwvase from "./collection/bnwvase.jpg";
-import leaves from "./collection/leaves.jpg";
-import bnymugs from "./collection/bnymugs.jpg";
-import rngmugs from "./collection/rngmugs.jpg";
 import face from "./collection/face.jpg";
-import funkymugs from "./collection/funkymugs.jpg";
-import skull from "./collection/skull.jpg";
+import funkymugs from "./collection/funkymugs.png";
 import kidswork from "./collection/kidswork.jpg";
 import twofaces from "./collection/twofaces.jpg";
-import longvase from "./collection/longvase.png";
-import blackashtrays from "./collection/blackashtrays.png";
 import coloured from "./collection/coloured.png";
-import mugs from "./collection/mugs.png";
 import goat from "./collection/goat.png";
 import nusrat from "./collection/nusrat.png";
-import pottery from "./collection/pottery.png";
 import scorpio from "./collection/scorpio.png";
 import cancer from "./collection/cancer.png";
 import gemini from "./collection/gemini.png";
-import twogirls from "./collection/twogirls.png";
-import pregoat from "./collection/pregoat.png";
 import camel from "./collection/camel.png";
-import twovases from "./collection/twovases.png";
-import pokkadot from "./collection/pokkadot.png";
 import winevase from "./collection/winevase.png";
 import students from "./collection/students.jpg";
 import zan from "./collection/zan.jpg";
 import students2 from "./collection/students2.jpg";
 import horseplate from "./collection/horseplate.jpg";
 import ashtrays from "./collection/ashtrays.jpg";
-import covid from "./collection/covid.jpg";
 import evileyes from "./collection/evileyes.jpg";
-import fishbowl from "./collection/fishbowl.jpg";
+import fishbowl from "./collection/fishbowl.png";
 import vases from "./collection/vases.jpg";
 import mustarddo from "./collection/mustarddo.jpg";
 import winedo from "./collection/winedo.jpg";
@@ -67,9 +53,7 @@ import jug from "./collection/jug.png";
 import multibowls from "./collection/multibowls.png";
 import multivase from "./collection/multivase.png";
 import smallbowls from "./collection/smallbowls.png";
-import smallplates from "./collection/smallplates.png";
 import twoplates from "./collection/twoplates.png";
-import winebowls from "./collection/winebowls.png";
 import zirsigari from "./collection/zirsigari.png";
 import bagha from "./collection/bagha.png";
 import toywatchashtray from "./collection/toywatchashtray.jpg";
@@ -97,40 +81,26 @@ export {
   fishplate,
   circleplate,
   dali,
-  doublevases,
   champslge,
   custom,
   bnwvase,
-  leaves,
-  bnymugs,
-  rngmugs,
   face,
   funkymugs,
-  skull,
   kidswork,
   twofaces,
-  longvase,
-  blackashtrays,
   coloured,
-  mugs,
   goat,
   nusrat,
-  pottery,
   scorpio,
   cancer,
   gemini,
-  twogirls,
-  pregoat,
   camel,
-  twovases,
-  pokkadot,
   winevase,
   students,
   zan,
   students2,
   horseplate,
   ashtrays,
-  covid,
   evileyes,
   fishbowl,
   vases,
@@ -148,9 +118,7 @@ export {
   multibowls,
   multivase,
   smallbowls,
-  smallplates,
   twoplates,
-  winebowls,
   zirsigari,
   bagha,
   toywatchashtray,
