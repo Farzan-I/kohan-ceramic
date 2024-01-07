@@ -6,6 +6,7 @@ import Experience from './Experience';
 import Collection from './Collection';
 import Contact from './Contact';
 import Footer from './Footer';
+import Carousel from './carousel/Carousel'
 
 export {
   Hero,
@@ -15,5 +16,6 @@ export {
   Collection,
   Contact,
   VaseCanvas,
-  Footer
+  Footer,
+  Carousel
 }
