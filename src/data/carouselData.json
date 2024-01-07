@@ -1,0 +1,212 @@
+{
+  "slides": [
+    {
+      "src": "src/assets/collection/ashtrays.jpg",
+      "alt": "Ashtrays"
+    },
+    {
+      "src": "src/assets/collection/bagha.png",
+      "alt": "Bagha sculpture"
+    },
+    {
+      "src": "src/assets/collection/bnwashtrays.png",
+      "alt": "Black and white ashtrays"
+    },
+    {
+      "src": "src/assets/collection/bnwvase.jpg",
+      "alt": "Black and white vase"
+    },
+    {
+      "src": "src/assets/collection/brownvase.png",
+      "alt": "Brown vase"
+    },
+    {
+      "src": "src/assets/collection/camel.png",
+      "alt": "Camel plate sculpture"
+    },
+    {
+      "src": "src/assets/collection/cancer.png",
+      "alt": "Cancer ashtray"
+    },
+    {
+      "src": "src/assets/collection/champslge.png",
+      "alt": "Champions league ashtray and bowl"
+    },
+    {
+      "src": "src/assets/collection/cheshm.jpg",
+      "alt": "Eye sculpture"
+    },
+    {
+      "src": "src/assets/collection/circleplate.png",
+      "alt": "Circle plate"
+    },
+    {
+      "src": "src/assets/collection/coloured.png",
+      "alt": "Coloured mugs"
+    },
+    {
+      "src": "src/assets/collection/custom.png",
+      "alt": "Custom bowls"
+    },
+    {
+      "src": "src/assets/collection/dali.jpg",
+      "alt": "Dali sculpture"
+    },
+    {
+      "src": "src/assets/collection/ego.jpeg",
+      "alt": "Horse plate sculpture"
+    },
+    {
+      "src": "src/assets/collection/evileyes.jpg",
+      "alt": "Evil eye ashtrays"
+    },
+    {
+      "src": "src/assets/collection/eyeglasses.png",
+      "alt": "Evil eye mugs"
+    },
+    {
+      "src": "src/assets/collection/face.jpg",
+      "alt": "Face sculpture"
+    },
+    {
+      "src": "src/assets/collection/fishbowl.png",
+      "alt": "Fish bowl"
+    },
+    {
+      "src": "src/assets/collection/funkymugs.png",
+      "alt": "Funky, spotty mugs"
+    },
+    {
+      "src": "src/assets/collection/gemini.png",
+      "alt": "Gemini plate"
+    },
+    {
+      "src": "src/assets/collection/goat.png",
+      "alt": "Goat plate sculpture"
+    },
+    {
+      "src": "src/assets/collection/horseplate.jpg",
+      "alt": "Raw horse plate sculpture"
+    },
+    {
+      "src": "src/assets/collection/jug.png",
+      "alt": "Jug"
+    },
+    {
+      "src": "src/assets/collection/kidswork.jpg",
+      "alt": "Kid's work"
+    },
+    {
+      "src": "src/assets/collection/leavesVase.jpg",
+      "alt": "Leaves vase"
+    },
+    {
+      "src": "src/assets/collection/multibowls.png",
+      "alt": "Multi-coloured bowls"
+    },
+    {
+      "src": "src/assets/collection/multivase.png",
+      "alt": "Multi-coloured vase"
+    },
+    {
+      "src": "src/assets/collection/mustarddo.jpg",
+      "alt": "Mustard coloured doughnut"
+    },
+    {
+      "src": "src/assets/collection/mustardtwolegs.png",
+      "alt": "Two legged mustard coloured vase"
+    },
+    {
+      "src": "src/assets/collection/nusrat.png",
+      "alt": "Evil eye collection"
+    },
+    {
+      "src": "src/assets/collection/rngmugs.jpg",
+      "alt": "Ashtrays collection"
+    },
+    {
+      "src": "src/assets/collection/scorpio.png",
+      "alt": "Scorpio ashtray"
+    },
+    {
+      "src": "src/assets/collection/smallbowls.png",
+      "alt": "Small multi-coloured bowls"
+    },
+    {
+      "src": "src/assets/collection/students.jpg",
+      "alt": "Students"
+    },
+    {
+      "src": "src/assets/collection/students2.jpg",
+      "alt": "Students"
+    },
+    {
+      "src": "src/assets/collection/threeFaces.jpg",
+      "alt": "Three faces plate sculpture"
+    },
+    {
+      "src": "src/assets/collection/toywatchashtray.jpg",
+      "alt": "Toywatch ashtrays"
+    },
+    {
+      "src": "src/assets/collection/twofaces.jpg",
+      "alt": "Two faces sculptures"
+    },
+    {
+      "src": "src/assets/collection/twoplates.png",
+      "alt": "Two big plates"
+    },
+    {
+      "src": "src/assets/collection/vases.jpg",
+      "alt": "Vases"
+    },
+    {
+      "src": "src/assets/collection/virgo.jpg",
+      "alt": "Virgo plate"
+    },
+    {
+      "src": "src/assets/collection/whiteblackdo.jpg",
+      "alt": "White and black doughnut"
+    },
+    {
+      "src": "src/assets/collection/whitedo.jpg",
+      "alt": "White doughnut"
+    },
+    {
+      "src": "src/assets/collection/whiteorangedo.jpg",
+      "alt": "White and orange doughnut"
+    },
+    {
+      "src": "src/assets/collection/whitetwolegs.png",
+      "alt": "Two legged white coloured vase"
+    },
+    {
+      "src": "src/assets/collection/whitevase.png",
+      "alt": "White desk lamp vase"
+    },
+    {
+      "src": "src/assets/collection/winedo.jpg",
+      "alt": "Wine doughnut"
+    },
+    {
+      "src": "src/assets/collection/winetwolegs.png",
+      "alt": "Two legged wine coloured vase"
+    },
+    {
+      "src": "src/assets/collection/winevase.png",
+      "alt": "Wine desk lamp vase"
+    },
+    {
+      "src": "src/assets/collection/yellowblackdo.jpg",
+      "alt": "Yellow and black doughnut"
+    },
+    {
+      "src": "src/assets/collection/zan.jpg",
+      "alt": "Raw lady plate sculpture"
+    },
+    {
+      "src": "src/assets/collection/zirsigari.png",
+      "alt": "Ashtrays collection"
+    }
+  ]
+}
