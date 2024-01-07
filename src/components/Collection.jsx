@@ -1,12 +1,12 @@
-import { Tilt } from 'react-tilt';
-import { motion } from 'framer-motion';
+import { Tilt } from "react-tilt";
+import { motion } from "framer-motion";
 
-import { styles } from '../styles';
-import { github } from '../assets';
+import { styles } from "../styles";
+import { github } from "../assets";
 
-import { SectionWrapper } from '../hoc';
-import { collections } from '../constants';
-import { fadeIn, textVariant } from '../utils/motion';
+import { SectionWrapper } from "../hoc";
+import { collections } from "../constants";
+import { fadeIn, textVariant } from "../utils/motion";
 
 const CollectionCard = ({ index, name, description, tags, image, otherImage, source_code_link, source_code_link_other}) => {
   return (
