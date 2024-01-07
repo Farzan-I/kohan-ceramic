@@ -1,6 +1,7 @@
 import { BrowserRouter } from "react-router-dom"
 import { useState } from "react";
-import { About, Collection, Contact, Experience, Footer, Hero, Navbar } from './components';
+import { About, Collection, Carousel, Contact, Experience, Footer, Hero, Navbar } from "./components";
+import { slides } from "./data/carouselData.json";
 
 const App = () => {
 
@@ -16,6 +17,7 @@ const App = () => {
             </div>
             <About/>
             <Collection/>
+            <Carousel data={slides} />
             <Experience/>
             <div className="relative z-0">
               <Contact/>
