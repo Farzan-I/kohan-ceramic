@@ -1,11 +1,11 @@
-import { styles } from '../styles';
-import { instagram } from '../assets';
-import { Link } from 'react-router-dom';
+import { styles } from "../styles";
+import { instagram } from "../assets";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
 
   return (
-    <foot>
+    <footer>
       <div className={`${styles.paddingX} w-full flex items-center py-5 bottom-0 z-20 justify-end bg-[#38454b] gap-3`}>
         <div className={`${styles.paddingX} w-full flex `}>
           <p className="justify-font text-white-100 text-[10px]">
@@ -27,7 +27,7 @@ const Footer = () => {
           </Link>
         </div>
       </div>
-    </foot>
+    </footer>
   )
 }
 
