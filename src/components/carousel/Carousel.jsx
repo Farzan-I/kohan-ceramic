@@ -19,10 +19,18 @@ const Carousel = ({ data }) => {
 
   return (
     <div className="carousel-section">
-        <h2 className={`${styles.sectionSubText} text-center`}>
-          Extensive range:
-        </h2>
-        <br/>
+      <h2 className={`${styles.sectionHeadText} text-center`}>
+        Extensive range
+      </h2>
+      <h2 className={`${styles.sectionHeroText} text-center`}>
+        Full range on instagram
+      </h2>
+      <h2 className={`${styles.sectionHeroText} text-center`}>
+        @kohan_ceramic
+      </h2>
+
+      <br/>
+      
       <div className="carousel">
         <BsArrowLeftCircleFill className="arrow arrow-left" onClick={prevSlide}/>
         {data.map((item, idx) => {
