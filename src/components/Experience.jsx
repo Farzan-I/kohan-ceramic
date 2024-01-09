@@ -13,10 +13,10 @@ const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
-        background: "#a07855ff",
-        color: "#eee9e9",
+        background: "#0e0e0ebc",
+        color: "#ffffff",
       }}
-      contentArrowStyle={{ borderRight: "16px solid #eee9e9" }}
+      contentArrowStyle={{ borderRight: "16px solid #ffffff" }}
       date={experience.date}
       iconStyle={{ background: experience.iconBg }}
       icon={
@@ -32,7 +32,7 @@ const ExperienceCard = ({ experience }) => {
       <div>
         <h3 className='text-[#eee9e9] text-[24px] font-bold'>{experience.title}</h3>
         <p
-          className='text-[16px] font-bold text-[#222121]'
+          className='text-[16px] font-bold text-[#ffd7a7]'
           style={{ margin: 0 }}
         >
           {experience.company_name}
