@@ -77,7 +77,7 @@ const Collection = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-9 text-white text-[17px] max-w-3xl leading-[30px]"
+          className="mt-9 text-white text-[16px] max-w-3xl leading-[30px]"
         >
           Taking inspiration from the (whatever whatever), my collection features (so and so) 
   
