@@ -10,7 +10,7 @@ import instagram from "./instagram.png";
 import cheshm from "./collection/cheshm.jpg";
 import threeFaces from "./collection/threeFaces.jpg";
 import gallery from "./collection/gallery.jpg";
-import ego from "./collection/ego.jpeg";
+import ego from "./collection/ego.jpg";
 import virgo from "./collection/virgo.jpg";
 import leavesVase from "./collection/leavesVase.jpg";
 import fishplate from "./collection/fishplate.jpg";
