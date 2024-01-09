@@ -41,13 +41,11 @@ const About = () => {
 
       <motion.p 
         variants={fadeIn("", "", 0.1, 1)} 
-        className="font-left mt-10 text-white text-[19px] max-w-3xl leading-[30px]"
+        className="font-left mt-10 text-white text-[16px] max-w-3xl leading-[30px]"
       >
-        That's right, you guessed it. This site belongs to someone who has loved playing with clay as a kid 
-        and still does! But her family did not allow her to do this because they thought she would get sick 
-        and dirty, which caused her to unintentionally stay away from this interest. She didn't know exactly 
-        what she enjoyed until she was 32 years old. But look at what's happened. It seems that this woman 
-        has been guided to the right path for several years.
+        You guessed it, this site belongs to someone who's loved playing with clay as a kid and still does! 
+        Her family disapproved as they thought she'd get sick, which caused her to stay away from pottery for a while. 
+        Only at the age of 32, she left her career as an architect to pursue her dream as a ceramic potter. 
       </motion.p>
 
       <div className="mt-10 flex flex-wrap gap-10">
@@ -58,7 +56,7 @@ const About = () => {
 
        <motion.p 
         variants={fadeIn("", "", 0.1, 1)} 
-        className="font-left mt-10 text-white text-[19px] max-w-3xl leading-[30px]"
+        className="font-left mt-10 text-white text-[16px] max-w-3xl leading-[30px]"
       >
         Please allow me to thank all you art lovers who have taken the time to visit my website in order to 
         learn more about my handiwork. Even though I studied urban planning and architecture at degree level, 
@@ -70,19 +68,18 @@ const About = () => {
         <br/>
         <br/>
 
-        In fact, the purpose of establishing the Kohan Ceramic brand, in addition to making handmade ceramic dishes, 
-        is to combine figurative sculptures with different ceramic shapes, creating wall hangings, each of which has 
-        a special message and inspires a social issue that may have been with us from a long time ago and wrongly 
-        institutionalised in us. Kohan translates to 'ancient' in Persian, which I've chosen to demonstrate how these 
-        social issues have been ongoing since ancient times. These products are handmade in limited quantities and 
-        sold to reputable art galleries, as well as through my <a href="https://www.instagram.com/kohan_ceramic/" rel="noreferrer" target="_blank">
+        The purpose of establishing the Kohan Ceramic brand, in addition to making handmade ceramic dishes, is to 
+        combine figurative sculptures with different ceramic shapes, creating wall hangings, each of which has a 
+        special message and inspires a social issue that may have been with us from a long time ago and wrongly 
+        institutionalised in us. Kohan translates to 'ancient' in Persian, which I've chosen to demonstrate how 
+        these social issues have been ongoing since ancient times. These products are handmade in limited quantities 
+        and sold to reputable art galleries, as well as through my <a href="https://www.instagram.com/kohan_ceramic/" rel="noreferrer" target="_blank">
             <span className="text-secondary hover:text-primary"> 
-            instagram
+              instagram
             </span>
-          </a>. In 2023, in the technical and professional test, 
-        I passed with flying colours and obtained the international certificate of pottery with foot and electric powered 
-        wheels. And besides these things, in addition to teaching pottery to children in schools and in my workshop, I 
-        participated in various art group exhibitions, which you will find their pictures below.
+        </a>. In 2023, in the technical and professional test, I passed with flying colours and obtained the international 
+        certificate of pottery with foot and electric powered wheels. Besides these, in addition to teaching pottery to 
+        children in schools and in my workshop, I participated in various art group exhibitions in various galleries.
       </motion.p>
     </>
   )
