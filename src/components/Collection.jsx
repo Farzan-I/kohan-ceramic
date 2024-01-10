@@ -2,13 +2,14 @@ import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
+import { instagram } from "../assets";
 
 import { SectionWrapper } from "../hoc";
 import { collections } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const CollectionCard = ({ index, name, description, tags, image, otherImage, source_code_link, source_code_link_other}) => {
+const CollectionCard = ({ index, name, description, image, source_code_link }) => {
+  // tags, otherImage, source_code_link_other
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -31,18 +32,8 @@ const CollectionCard = ({ index, name, description, tags, image, otherImage, sou
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img 
-                src={github}
-                alt="github"
-                className="w-1/2 h-1/2 object-contain"
-              />
-            </div>
-            <div 
-              onClick={() => window.open (source_code_link_other, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img 
-                src={otherImage}
-                alt="other_link"
+                src={instagram}
+                alt="instagram"
                 className="w-1/2 h-1/2 object-contain"
               />
             </div>
@@ -53,14 +44,14 @@ const CollectionCard = ({ index, name, description, tags, image, otherImage, sou
           <h3 className="text-white-100 font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-white-100 text-[14px]">{description}</p>
         </div>
-
+{/* 
         <div className="mt-4 flex flex-wrap gap-2">
           {tags.map((tag) => (
             <p key={tag.name} className={`text-[14px] ${tag.color}`}>
               #{tag.name}
             </p>
           ))}
-        </div>
+        </div> */}
       </Tilt>
     </motion.div>
   )
@@ -80,10 +71,6 @@ const Collection = () => {
           className="mt-9 text-white text-[16px] max-w-3xl leading-[30px]"
         >
           Taking inspiration from the (whatever whatever), my collection features (so and so) 
-  
-          {/* <a href="https://github.com/Farzan-I" rel="noreferrer" target="_blank">
-              <span className="text-secondary"> GitHub</span>
-          </a>  */}
         </motion.p>
       </div>
 
