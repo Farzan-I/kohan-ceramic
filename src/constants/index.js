@@ -122,9 +122,9 @@ const experiences = [
 
 const collections = [
   {
-    name: "Name one",
+    name: "Bagha",
     description:
-      "",
+      "Face sculpture ~~~ explain",
     tags: [
       {
         name: "Number one",
