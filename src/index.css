@@ -131,7 +131,7 @@
   );
 }
 
-.red-yellow-gradient {
+.about-card-gradient {
   background: "#00cea8";
   background: linear-gradient(90.13deg, #ffd7a7 1.9%, #d18f4d 97.5%);
   background: -webkit-linear-gradient(-90.13deg, #ffd7a7 1.9%, #d18f4d 97.5%);
