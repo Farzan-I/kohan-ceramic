@@ -23,10 +23,12 @@ const Carousel = ({ data }) => {
         Extensive range
       </h2>
       <h2 className={`${styles.sectionHeroText} text-center`}>
-        Full range on instagram
+        Full range on instagram:
       </h2>
       <h2 className={`${styles.sectionHeroText} text-center`}>
-        @kohan_ceramic
+        <a href="https://www.instagram.com/kohan_ceramic/" rel="noreferrer" target="_blank">
+            <span className="text-secondary">@kohan_ceramic</span>
+        </a>
       </h2>
 
       <br/>
