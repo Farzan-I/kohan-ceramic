@@ -9,7 +9,6 @@ import { collections } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const CollectionCard = ({ index, name, description, image, source_code_link }) => {
-  // tags, otherImage, source_code_link_other
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -44,14 +43,6 @@ const CollectionCard = ({ index, name, description, image, source_code_link }) =
           <h3 className="text-white-100 font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-white-100 text-[14px]">{description}</p>
         </div>
-{/* 
-        <div className="mt-4 flex flex-wrap gap-2">
-          {tags.map((tag) => (
-            <p key={tag.name} className={`text-[14px] ${tag.color}`}>
-              #{tag.name}
-            </p>
-          ))}
-        </div> */}
       </Tilt>
     </motion.div>
   )
@@ -68,9 +59,11 @@ const Collection = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-9 text-white text-[16px] max-w-3xl leading-[30px]"
+          className="font-left mt-9 text-white text-[16px] max-w-3xl leading-[30px]"
         >
-          Taking inspiration from the (whatever whatever), my collection features (so and so) 
+          Emphasising the advantages of handmade pieces over mass produced items brought about my collection. 
+          As much as technology advances, it still does not compare to the level of detail that the naked eye and the human hand can portray.
+          I demonstrate these with the hand drawn and sculpted pieces you see below that ensure quality is never jeapordised.
         </motion.p>
       </div>
 
