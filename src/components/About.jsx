@@ -2,11 +2,11 @@ import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { services } from "../constants";
+import { aboutPics } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 
-const ServiceCard = ({ index, title, icon }) => {
+const AboutCard = ({ index, title, icon }) => {
   return (
     <Tilt className="xs:w-[230px] w-full">
       <motion.div
@@ -22,9 +22,6 @@ const ServiceCard = ({ index, title, icon }) => {
           className="bg-card rounded-[10px] py-5 px-12 min-h-[240px] flex justify-evenly items-center flex-col"
         >
           <img src={icon} alt={title} className="w-50 h-50 object-contain" />
-          {/* <h3 className="text-white-100 text-[20px] font-bold text-center justify">
-            {title}
-          </h3> */}
         </div>
       </motion.div>
     </Tilt>
@@ -49,8 +46,8 @@ const About = () => {
       </motion.p>
 
       <div className="mt-10 flex flex-wrap gap-10">
-        {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
+        {aboutPics.map((about, index) => (
+          <AboutCard key={about.title} index={index} {...about} />
         ))}
       </div>
 
