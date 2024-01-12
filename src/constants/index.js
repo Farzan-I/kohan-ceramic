@@ -36,12 +36,15 @@ export const navLinks = [
 
 const aboutPics = [
   {
+    title: "Fish plate",
     icon: fishplate,
   },
   {
+    title: "Gallery image",
     icon: gallery,
   },
   {
+    title: "Green doughnut vase",
     icon: greendo,
   }
 ];
