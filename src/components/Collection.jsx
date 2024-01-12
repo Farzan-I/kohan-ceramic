@@ -63,7 +63,8 @@ const Collection = () => {
         >
           Emphasising the advantages of handmade pieces over mass produced items brought about my collection. 
           As much as technology advances, it still does not compare to the level of detail that the naked eye and the human hand can portray.
-          I demonstrate these with the hand drawn and sculpted pieces you see below that ensure quality is never jeapordised.
+          I demonstrate these with the hand drawn and sculpted pieces you see below in the highlighted and extensive range pieces that ensure quality is never jeapordised.
+          Each of the six pieces below have a link to their instagram post, feel free to click on the instagram logo to check them out!
         </motion.p>
       </div>
 
