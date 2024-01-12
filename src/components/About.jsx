@@ -46,8 +46,8 @@ const About = () => {
       </motion.p>
 
       <div className="mt-10 flex flex-wrap gap-10">
-        {aboutPics.map((about, index) => (
-          <AboutCard key={about.title} index={index} {...about} />
+        {aboutPics.map((service, index) => (
+          <AboutCard key={service.title} index={index} {...service} />
         ))}
       </div>
 
