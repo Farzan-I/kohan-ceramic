@@ -57,6 +57,7 @@ import twoplates from "./collection/twoplates.png";
 import zirsigari from "./collection/zirsigari.png";
 import bagha from "./collection/bagha.png";
 import toywatchashtray from "./collection/toywatchashtray.jpg";
+import girihvase from "./collection/girihvase.jpg";
 
 import hamoun from "./companies/hamoun.png";
 import contconsult from "./companies/contconsult.png";
@@ -122,6 +123,7 @@ export {
   zirsigari,
   bagha,
   toywatchashtray,
+  girihvase,
   hamoun,
   contconsult,
   nasimearam,
