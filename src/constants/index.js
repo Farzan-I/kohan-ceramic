@@ -4,9 +4,6 @@ import {
   goat,
   fishplate,
   greendo,
-  twoplates,
-  bagha,
-  toywatchashtray,
   girihvase,
   hamoun,
   contconsult,
@@ -122,52 +119,24 @@ const collections = [
   {
     name: "Inspired by architecture",
     description:
-      "Inspired by girih art found in Iranian architecture, I've created several pieces using hand-drawn and freehand techniques. Having studied the field at degree level, I've brought elements of buildings into my work.",
+      "Inspired by girih tiling and muqarnas art found in Persian and Middle-Eastern architecture, I've created several pieces using hand-drawn and freehand techniques. Having studied the field at degree level, I've brought elements of buildings into my work that capture most of their intricate aspects such as the carvings, paintings and hand welded structures.",
     image: girihvase,
     source_code_link: "https://www.instagram.com/p/CAIDOIAAujx/",
   },
-  // {
-  //   name: "Raising social awareness",
-  //   description:
-  //     "Touching on social issues and bringing them to life in the form of sculptures, I provoke thoughts that most people would stay away from. By doing so, I raise awareness and try to tackle issues that have been plaguing humanity for centuries.",
-  //   image: bagha,
-  //   source_code_link: "https://www.instagram.com/p/CXeHIqPAIca/?igsh=MTc4MmM1YmI2Ng%3D%3D",
-  // },
   {
-    name: "Ignorance is bliss",
+    name: "Raising social awareness",
     description:
-      "My most famous piece, the 'ahle jahl' represents the three emotions of fear, pride and anger. These qualities destroy human life by keeping a person at a low frequency. By avoiding these, we can achieve more and more success.",
+      "Touching on social issues and bringing them to life in the form of sculptures, I provoke thoughts that most people would stay away from. My most famous piece, the 'ahle jahl' represents the three emotions of fear, pride and anger. These qualities destroy human life by keeping a person at a low frequency. By avoiding these, we can achieve more success in life.",
     image: threeFaces,
     source_code_link: "https://www.instagram.com/p/CQBEAI-AGso/?igsh=MTc4MmM1YmI2Ng%3D%3D",
   },
   {
-    name: "Horoscope designs",
+    name: "Innovative designs",
     description:
-      "Possesing a belief in star signs, I created horoscope pieces that initially began with custom orders for clients. This became a permanent range that was created as 2D or 3D items in the form of vases, mugs, ashtrays, plates, sculptures, you name it!",
+      "Believing in star signs, I created horoscope pieces that initially began with custom orders for clients. This became a permanent range that was created as 2D or 3D items in the form of vases, mugs, ashtrays, plates, sculptures, you name it! I also create unique pieces that repurpose sentimental objects and give them a new lease of life for clients.",
     image: goat,
     source_code_link: "https://www.instagram.com/p/CQbQ4FNgL67/?igsh=MTc4MmM1YmI2Ng%3D%3D",
   },
-  // {
-  //   name: "Ancient ceramic styling",
-  //   description:
-  //     "Taking inspiration from ancient pottery craftmanship, I've created items that are made to evoke memories of the past. As stated before, despite technological advancements, artistic handicrafts cannot be replaced due to their unique nature.",
-  //   image: twoplates,
-  //   source_code_link: "https://www.instagram.com/tv/CcdHWmHAdIq/?igsh=MTc4MmM1YmI2Ng%3D%3D",
-  // },
-  // {
-  //   name: "Rebirth of items",
-  //   description:
-  //     "Giving a new lease of life to a sentimental object, ceramic can be used with almost anything to restore it. Due to the high temperatures of the kiln, the ceramic and item will be combined at a later stage to preserve the item.",
-  //   image: toywatchashtray,
-  //   source_code_link: "",
-  // },
-  // {
-  //   name: "Inspired by architecture",
-  //   description:
-  //     "Inspired by girih art found in Iranian architecture, I've created several pieces using hand-drawn and freehand techniques. Having studied the field at degree level, I've brought elements of buildings into my work.",
-  //   image: girihvase,
-  //   source_code_link: "https://www.instagram.com/p/CAIDOIAAujx/",
-  // },
 ];
 
 export { aboutPics, experiences, collections};
