@@ -11,16 +11,15 @@ import { fadeIn, textVariant } from "../utils/motion";
 const CollectionCard = ({ index, name, description, image, source_code_link }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      {/* <Tilt
+      <Tilt
         options={{
           max: 45,
           scale: 1,
           speed: 450
         }}
         className="green-gradient p-5 rounded-2xl sm:w-[360px] w-full"
-      > */}
-      {/* </Tilt> */}
-      <div className="green-gradient p-5 rounded-2xl sm:w-[360px] w-full">
+      > 
+
         <div className="w-full relative h-[230px]">
           <img 
             src={image}
@@ -45,7 +44,7 @@ const CollectionCard = ({ index, name, description, image, source_code_link }) =
           <h3 className="text-white-100 font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-white-100 text-[14px]">{description}</p>
         </div>
-      </div>
+      </Tilt>
     </motion.div>
   )
 }
