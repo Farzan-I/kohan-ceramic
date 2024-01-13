@@ -140,27 +140,27 @@ const collections = [
     image: goat,
     source_code_link: "https://www.instagram.com/p/CQbQ4FNgL67/?igsh=MTc4MmM1YmI2Ng%3D%3D",
   },
-  // {
-  //   name: "Ancient ceramic styling",
-  //   description:
-  //     "Taking inspiration from ancient pottery craftmanship, I've created items that are made to evoke memories of the past. As stated before, despite technological advancements, artistic handicrafts cannot be replaced due to their unique nature.",
-  //   image: twoplates,
-  //   source_code_link: "https://www.instagram.com/tv/CcdHWmHAdIq/?igsh=MTc4MmM1YmI2Ng%3D%3D",
-  // },
-  // {
-  //   name: "Rebirth of items",
-  //   description:
-  //     "Giving a new lease of life to a sentimental object, ceramic can be used with almost anything to restore it. Due to the high temperatures of the kiln, the ceramic and item will be combined at a later stage to preserve the item.",
-  //   image: toywatchashtray,
-  //   source_code_link: "",
-  // },
-  // {
-  //   name: "Inspired by architecture",
-  //   description:
-  //     "Inspired by girih art found in Iranian architecture, I've created several pieces using hand-drawn and freehand techniques. Having studied the field at degree level, I've brought elements of buildings into my work.",
-  //   image: girihvase,
-  //   source_code_link: "https://www.instagram.com/p/CAIDOIAAujx/",
-  // },
+  {
+    name: "Ancient ceramic styling",
+    description:
+      "Taking inspiration from ancient pottery craftmanship, I've created items that are made to evoke memories of the past. As stated before, despite technological advancements, artistic handicrafts cannot be replaced due to their unique nature.",
+    image: twoplates,
+    source_code_link: "https://www.instagram.com/tv/CcdHWmHAdIq/?igsh=MTc4MmM1YmI2Ng%3D%3D",
+  },
+  {
+    name: "Rebirth of items",
+    description:
+      "Giving a new lease of life to a sentimental object, ceramic can be used with almost anything to restore it. Due to the high temperatures of the kiln, the ceramic and item will be combined at a later stage to preserve the item.",
+    image: toywatchashtray,
+    source_code_link: "",
+  },
+  {
+    name: "Inspired by architecture",
+    description:
+      "Inspired by girih art found in Iranian architecture, I've created several pieces using hand-drawn and freehand techniques. Having studied the field at degree level, I've brought elements of buildings into my work.",
+    image: girihvase,
+    source_code_link: "https://www.instagram.com/p/CAIDOIAAujx/",
+  },
 ];
 
 export { aboutPics, experiences, collections};
