@@ -26,16 +26,16 @@ const Contact = () => {
     setLoading(true);
 
     emailjs.send(
-      'service_1pg0io7',
-      'template_hezrcjn',
+      'service_spcbhni',
+      'template_w6saycf',
       {
         from_name: form.name,
         to_name: 'Sogol',
         from_email: form.email,
-        to_email: 'sogol.orumchi1366@gmail.com',
+        to_email: 'kohan.ceramic@gmail.com',
         message: form.message,
       },
-      'QzGdmrQOfAv0CJ7ZX'
+      'HFlIFrD8IHP3UuccS'
       )
       .then(() => {
         setLoading(false);                           
