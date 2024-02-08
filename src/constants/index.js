@@ -9,6 +9,7 @@ import {
   contconsult,
   nasimearam,
   kimiaye,
+  pouya,
   logoBlack,
 } from "../assets";
 
@@ -48,25 +49,11 @@ const aboutPics = [
 
 const experiences = [
   {
-    title: "Pottery Instructor",
-    company_name: "Non-profit school of Kimiaye Elm",
-    icon: kimiaye,
-    iconBg: "#ffffff",
-    date: "August 2022 - July 2023",
-    points: [
-      "Ceramic theory training (primary and secondary soils)",
-      "Teaching how to make clay objects in three ways: pinch, coil and slab",
-      "Basic training on drying pottery crafts",
-      "Having an effective relationship with students aged 6 - 12 years",
-      "Children's familiarity with pottery materials and accessories, such as types of clay pastes, colours, glazes and tools needed in pottery",
-    ],
-  },
-  {
     title: "Pottery and Sculpture Instructure",
     company_name: "Kohan Ceramic School (independent workshop)",
     icon: logoBlack,
     iconBg: "#ffffff",
-    date: "March 2021 - Present",
+    date: "August 2019 - Present",
     points: [
       "Nurturing the students' ability to synchronise movement of their fingers with precision and dexterity when using their hands",
       "Teaching decorating and colouring techniques such as painting, stamping and using glazes to children aged 5 - 15 years",
@@ -81,12 +68,37 @@ const experiences = [
     company_name: "Nasime Aram Pottery School",
     icon: nasimearam,
     iconBg: "#ffffff",
-    date: "January 2020 - Present",
+    date: "April 2019 - Present",
     points: [
       "Help in cultivating the creativity of each person and increasing their power of ideation",
       "Basic training of drying clay structures",
       "Teaching all kinds of pottery processes, such as wheel pottery, hand pottery and casting pottery",
       "Collaboration with other artists designing and creating unique, one-off pieces",
+    ],
+  },
+  {
+    title: "Art student",
+    company_name: "Aesthetics of Art course in Pouya Andish",
+    icon: pouya,
+    iconBg: "#ffffff",
+    date: "January 2023 - December 2023",
+    points: [
+      "Gaining insights from legendary director, poet and professor of the course, Mohammad Reza Aslani, the educational programme discussed the importance of fantasy and its cultivation, how it differs from illusion and that fantasy is our escape from the world",
+      "",
+    ],
+  },
+  {
+    title: "Pottery Instructor",
+    company_name: "Non-profit school of Kimiaye Elm",
+    icon: kimiaye,
+    iconBg: "#ffffff",
+    date: "August 2022 - July 2023",
+    points: [
+      "Ceramic theory training (primary and secondary soils)",
+      "Teaching how to make clay objects in three ways: pinch, coil and slab",
+      "Basic training on drying pottery crafts",
+      "Having an effective relationship with students aged 5 - 15 years",
+      "Children's familiarity with pottery materials and accessories, such as types of clay pastes, colours, glazes and tools needed in pottery",
     ],
   },
   {
@@ -133,7 +145,7 @@ const collections = [
   {
     name: "Innovative designs",
     description:
-      "Believing in star signs, I created horoscope pieces that initially began with custom orders for clients. This became a permanent range that was created as 2D or 3D items in the form of vases, mugs, ashtrays, plates, sculptures, you name it! I also create unique pieces that repurpose sentimental objects and give them a new lease of life for clients.",
+      "A believer of Zodiac star signs, I created horoscope pieces that initially began with custom orders for clients. This became a permanent range that was created as 2D or 3D items in the form of vases, mugs, ashtrays, plates, sculptures, you name it! I also create unique pieces that repurpose sentimental objects and give them a new lease of life for clients.",
     image: goat,
     source_code_link: "https://www.instagram.com/p/CQbQ4FNgL67/?igsh=MTc4MmM1YmI2Ng%3D%3D",
   },

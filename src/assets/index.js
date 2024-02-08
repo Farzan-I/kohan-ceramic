@@ -63,6 +63,7 @@ import hamoun from "./companies/hamoun.png";
 import contconsult from "./companies/contconsult.png";
 import nasimearam from "./companies/nasimearam.jpg";
 import kimiaye from "./companies/kimiaye.png";
+import pouya from "./companies/pouya.png";
 
 export {
   logo,
@@ -128,4 +129,5 @@ export {
   contconsult,
   nasimearam,
   kimiaye,
+  pouya,
 };
