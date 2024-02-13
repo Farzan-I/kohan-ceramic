@@ -6,6 +6,7 @@ import menu from "./menu.png";
 import close from "./close.png";
 import netlify from "./netlify.png";
 import instagram from "./instagram.png";
+import buymeacoffee from "./buymeacoffee.png";
 
 import cheshm from "./collection/cheshm.jpg";
 import threeFaces from "./collection/threeFaces.jpg";
@@ -74,6 +75,7 @@ export {
   close,
   netlify,
   instagram,
+  buymeacoffee,
   cheshm,
   threeFaces,
   gallery,

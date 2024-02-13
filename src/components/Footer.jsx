@@ -1,5 +1,5 @@
 import { styles } from "../styles";
-import { instagram } from "../assets";
+import { instagram, buymeacoffee } from "../assets";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -21,9 +21,12 @@ const Footer = () => {
             Use of them does not imply any affiliation with or endorsement by them. Navbar menu icons by Icons8.
           </p>
         </div>
-        <div className={`${styles.paddingX} flex items-center gap-1`}>
+        <div className={`${styles.paddingX} flex items-center gap-3`}>
           <Link to="https://www.instagram.com/kohan_ceramic/" target="_blank" rel="noreferrer">
             <img src={instagram} alt="Instagram" width={47} height={47}/>
+          </Link>
+          <Link to="https://www.buymeacoffee.com/sogolorumchi" target="_blank" rel="noreferrer">
+            <img src={buymeacoffee} alt="BuyMeACoffee" width={30} height={30}/>
           </Link>
         </div>
       </div>
